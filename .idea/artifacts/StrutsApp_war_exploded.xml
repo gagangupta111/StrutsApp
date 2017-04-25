@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StrutsApp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/StrutsApp_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="StrutsApp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StrutsApp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
+          <element id="library" level="project" name="Struts 2-2.3.20.1" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/struts.xml" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/web/user" />
+    </root>
+  </artifact>
+</component>
